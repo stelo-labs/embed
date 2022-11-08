@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["ES2015"],
+    "module": "ESNext",
+    "rootDir":"./src",
+    "target": "es6",
+    "allowJs":true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "outDir":"./dist",
+      "composite": true,
+      "declarationMap": true
+  },
+  "include": ["src/**/*.ts","src/**/*.tsx"],
+  "exclude": ["node_modules"],
+}
